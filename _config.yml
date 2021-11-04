@@ -1,0 +1,118 @@
+# Site
+repository: abdl-dev/abdl-dev.github.io
+color-scheme: auto
+
+# Personal Info
+name: Abdul Malek
+title: Software Engineer
+email: me@abdl.dev
+phone: (646) 552-1769
+location: New York, NY
+
+# Social Links
+github: abdl-dev
+linkedin: abdl
+resume: assets/resume.pdf
+
+content:
+    - section-title: SKILLS
+      text-only: true
+      content: |
+          **Languages**  | Python, C, C++, Java, JavaScript, Haskell, Go, x86, Lisp/Scheme, Bash
+          **Tools**      | Linux, Git, AWS, Node.js, Express, React, CSS, SQL, NoSQL, OpenGL, LWJGL
+          **Experience** | distributed systems, natural language processing, security/crypto, graphics, web, robotics, various math
+
+    - section-title: EXPERIENCE
+      text-only: false
+      content:
+        - title: Intersection
+          sub-title: Software Engineer - DevOps Team
+          fill_1: New York, NY
+          fill_2: Sept. 2014 - Aug. 2015
+          description: |
+            - Worked with team to build an internal python-based application
+            - Developed system to generate human-interpretable Zendesk tickets and responses for company clients
+            - Developed backend incorporating multiple AWS services, employing sound security practices involving internal keys/IAM identities
+            - Extended internal app to provide automatic solutions to a limited class of Zendesk tickets, including correcting RDS latency/availability and reactive spin-up of EC2 instances
+            - Internally tested and presented software to team leads before deploying to production
+
+        - title: Intersection
+          sub-title: Software Engineering Intern - Quadcopter Team
+          fill_1: New York, NY
+          fill_2: Jun. 2014 - Aug. 2014
+          description: |
+            - Worked with team to build and program an ArduPilot-based quadcopter
+            - Developed on-board controller incorporating various sensors (including GPS, sonar, accelerometer, gyroscope, etc.) for dynamic balancing, speed control, and autonomous flight
+
+        - title: Independent Game Development
+          sub-title: Game Developer
+          fill_1: New York, NY
+          fill_2: Aug. 2014 - May 2019
+          description: |
+            - Developed a 3D LWJGL-based arcade game that interfaces with a web server displaying real-time score updates, incorporating multiple graphics and web tools/libraries
+            - Developed multiple feature-complete ports of popular mobile games including Defender, a dynamic-difficulty wave defense game, Line Runner, and a variation of B-Shooter
+
+        - title: Stuy++
+          sub-title: Software Engineer
+          fill_1: New York, NY
+          fill_2: Sept. 2012 - Jun. 2014
+          description: |
+            - Led team in development of new technology to modernize school building
+            - Developed wireless mesh network monitoring system for unreliable escalators using Arduino and XBee
+
+        - title: FIRST Robotics
+          sub-title: Software Engineer
+          fill_1: New York, NY
+          fill_2: Sept. 2010 - Jun. 2014
+          description: |
+            - Led team in developing software for multi-system FRC robots
+            - Won various awards and accolades, including several regional wins and placement at world championships multiple years
+
+    - section-title: OTHER
+      text-only: false
+      content:
+        - title: Mathematics, Programming, & Security Competitions
+          sub-title: Contestant & Mentor
+          fill_1: St. Louis, MO
+          fill_2: Aug. 2014 - May 2020
+          description: |
+            - Competed and placed in the William Lowell Putnam Mathematical Competition (Putnam Competition)
+            - Competed and placed in the International Collegiate Programming Contest (ICPC)
+            - Competed and placed in several capture-the-flag (CTF) style security competitions, including CSAW CTF, UFO CTF, and picoCTF
+            - Taught and mentored other contestants in various topics, including binary exploitation, script exploitation, forensics, and cryptography
+
+
+    - section-title: EDUCATION
+      text-only: false
+      content:
+        - title: Hunter College
+          sub-title: Computer Science
+          fill_1: New York, NY
+          fill_2: Aug. 2019 - May 2021
+
+        - title: Saint Louis University
+          sub-title: Computer Science & Mathematics
+          fill_1: St. Louis, MO
+          fill_2: Aug. 2015 - May 2019
+
+        - title: Stuyvesant High School
+          fill_1: New York, NY
+
+
+
+# TODO
+# - cleaning pass
+# - consider doing home page menu and multiple pages, including a detail/info page
+# - consider changing spacing to use padding instead of bootstap col-1
+# - double check content for errors
+# - Fix line break issue with many slashes (fix gyro-scope)
+# - make sure `display` attribute is reset to default and not just `inline`
+# - Change all double quotes to single quotes (or no quotes?)
+# - look over all files a final time to check style and consistency
+# - remove/add unnecessary/necessary Liquid whitespace strips
+# - restructure icons/button light/dark things into a central one
+# - understand and clean up button.scss
+# - consider box shadow for location box
+# - incorporate more of the scss features
+# - consider a light/dark toggle button
+# - figure out how to prevent line breaks when printing

@@ -1,0 +1,32 @@
+<div class='col-12 col-md-1 col-print-12'>
+    <h4>{{ include.section-title }}</h4>
+</div>
+<div class='col-12 col-md-10 col-print-12'>
+    {%- if include.text-only -%}
+    {{ include.content | markdownify }}
+    {%- else -%}
+    {%- for item in include.content -%}
+    <div class='item'>
+        <div class='heading'>
+            {%- if item.title -%}
+            <h5 class='title'>{{ item.title }}</h5>
+            {%- endif -%}
+            {%- if item.fill_1 -%}
+            <p class='fill_1'>{{ item.fill_1 }}</p>
+            {%- endif -%}
+            <br>
+            {%- if item.sub-title -%}
+            <p class='sub-title'>{{ item.sub-title }}</p>
+            {%- endif -%}
+            {%- if item.fill_2 -%}
+            <p class='fill_2'>{{ item.fill_2 }}</p>
+            {%- endif -%}
+        </div>
+        {%- if item.description -%}
+        <div class='description'>{{ item.description | markdownify }}</div>
+        {%- endif -%}
+    </div>
+    {%- endfor -%}
+    {%- endif -%}
+</div>
+<div class='col-12 col-md-1 d-none d-md-block'></div>

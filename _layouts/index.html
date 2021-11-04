@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+    {%- include head.html -%}
+    <body>
+        <script src='/assets/index.js'></script>
+        {%- if site.color-scheme == 'auto' -%}
+        <script>autoColorScheme()</script>
+        {%- else -%}
+        <script>setColorScheme('{{ site.color-scheme }}')</script>
+        {%- endif -%}
+        {%- include header.html -%}
+        <main>
+            {%- for item in site.content -%}
+            <div class='container'>
+                <div class='row'>
+                    {%- include section.html section-title=item.section-title text-only=item.text-only content=item.content -%}
+                </div>
+            </div>
+            {%- endfor -%}
+        </main>
+        {%- include footer.html -%}
+    </body>
+</html>

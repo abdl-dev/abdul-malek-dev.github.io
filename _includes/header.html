@@ -1,0 +1,33 @@
+{% assign phone_raw = site.phone | remove: '(' | remove: ')' | replace: ' ', '-' %}
+<div class='container header-container'>
+    <div class='row'>
+        <div class='col-12 col-md-1 d-none d-md-block'></div>
+        <div class='col-12 col-md-6 header-left'>
+            <h1>{{ site.name }}</h1>
+            <h2>{{ site.title }}</h2>
+            <h3><mark>{{ site.location }}</mark></h3>
+        </div>
+        <div class='col-12 col-md-4 header-right'>
+            <div class='icons'>
+                <a href='https://github.com/{{ site.github }}' class='social'>
+                    <i class='fab fa-github' title='GitHub'></i>
+                </a>
+                <a href='https://linkedin.com/in/{{ site.linkedin }}' class='social'>
+                    <i class='fab fa-linkedin' title='LinkedIn'></i>
+                </a>
+                <!--
+                <a href='{{ site.resume }}' class='social'>
+                    <i class='fas fa-align-left' title='Résumé'></i>
+                </a>
+                -->
+            </div>
+            <p class='info'>
+            <a href='tel:{{ phone_raw }}'>{{ site.phone }}</a>
+            </p>
+            <p class='info'>
+            <a href='mailto:{{ site.email }}'>{{ site.email }}</a>
+            </p>
+        </div>
+        <div class='col-12 col-md-1 d-none d-md-block'></div>
+    </div>
+</div>
