@@ -1,2 +1,2 @@
-# abdl-dev.github.io
+# abdul-malek-dev.github.io
 Jekyll-powered static personal site
