@@ -1,17 +1,17 @@
 # Site
-repository: abdul-malek-dev/abdul-malek-dev.github.io
+repository: almk-dev/almk-dev.github.io
 color-scheme: auto
 
 # Personal Info
 name: Abdul Malek
 title: Software Engineer
-email: me@abdul-malek.dev
+email: me@almk.dev
 phone: (646) 552-1769
 location: New York, NY
 
 # Social Links
-github: abdul-malek-dev
-linkedin: abdul-malek-dev
+github: almk-dev
+linkedin: almk
 resume: assets/resume.pdf
 
 content:
