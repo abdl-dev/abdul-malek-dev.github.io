@@ -6,6 +6,8 @@ function autoColorScheme() {
     }
 }
 
-function setColorScheme(scheme) {
+function toggleColorScheme(scheme) {
     document.body.classList.add(scheme);
 }
+
+window.onload = autoColorScheme()
