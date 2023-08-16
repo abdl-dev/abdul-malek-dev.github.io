@@ -2,6 +2,7 @@
 <html lang='en-US'>
     {%- include head.html -%}
     <body>
+        <div class="content">
         <script src='/assets/index.js'></script>
         {%- if site.color-scheme == 'auto' -%}
         <script>autoColorScheme()</script>
@@ -19,5 +20,6 @@
             {%- endfor -%}
         </main>
         {%- include footer.html -%}
+        </div>
     </body>
 </html>
