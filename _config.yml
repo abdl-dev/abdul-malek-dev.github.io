@@ -1,6 +1,6 @@
 info:
   name: Abdul Malek
-  title: Software Engineer
+  title: Senior Software Engineer
   location: New York, NY
 
 links:
@@ -24,9 +24,7 @@ content:
         - Python
         - JavaScript
         - Java
-        - C
         - C++
-        - Haskell
         - Go
         - x86
         - Lisp/Scheme
@@ -37,26 +35,25 @@ content:
         - Linux
         - Git
         - AWS
-        - Django
         - FastAPI
-        - Express
+        - Django
         - React,
-        - Vue
+        - CSS
         - PostgreSQL
-        - MongoDB
-        - DynamoDB
+        - NoSQL
+        - PySpark
+        - Airflow
         - OpenGL
         - LWJGL
     
     - heading: Experience
       items:
         - distributed systems
-        - microservices
         - web
         - security/crypto
-        - natural language processing
-        - graphics
+        - financial systems
         - robotics
+        - graphics
         - various math
 
 # TODO

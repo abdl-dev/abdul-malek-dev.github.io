@@ -1,13 +1,13 @@
 <div class="header">
     <div class="info">
         <div class="greeting">Hello, this is</div>
-        <div class="name">{{ info.name }}</div>
+        <div class="name">{{ include.info.name }}</div>
         <div class="location">Located in {{ info.location }}</div>
     </div>
     <div class="links">
-        <p>GitHub</p>
-        <p>LinkedIn</p>
-        <p>E-Mail</p>
+        <p>GitHub: {{ links.github }}</p>
+        <p>LinkedIn: {{ links.linkedin }}</p>
+        <p>E-Mail: {{ links.email }}</p>
         <p>Theme</p>
     </div>
 </div>

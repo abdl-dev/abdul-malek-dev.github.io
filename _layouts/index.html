@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html lang='en-US'>
-{%- include head.html -%}
+<html lang="en-US">
 
+{%- include head.html info=site.info -%}
 <body>
-    <script src='/assets/index.js'></script>
-    {%- include header.html -%}
-    <main>
-        {%- for item in site.content -%}
-        <div class='container'>
-            <div class='row'>
-                {%- include section.html section-title=item.section-title text-only=item.text-only content=item.content
-                -%}
-            </div>
-        </div>
-        {%- endfor -%}
-    </main>
+    <script src="/assets/site.js"></script>
+    {%- include header.html info=site.info links=site.links-%}
+    {%- for item in site.content -%}
+        {%- include section.html type=item.name content=item.items -%}
+    {%- endfor -%}
     {%- include footer.html -%}
 </body>
 
