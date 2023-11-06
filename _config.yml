@@ -1,6 +1,7 @@
 name:
   first: Abdul
   last: Malek
+
 location:
   city: New York
   state: NY
@@ -44,9 +45,9 @@ work:
   company:  Alpaca
 
 links:
+  email: me@almk.dev
   github: almk-dev
   linkedin: almk
-  email: me@almk.dev
 
 # TODO
 # - Add a light/dark toggle
