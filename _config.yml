@@ -1,60 +1,52 @@
-info:
-  name: Abdul Malek
-  title: Senior Software Engineer
-  location: New York, NY
+name:
+  first: Abdul
+  last: Malek
+location:
+  city: New York
+  state: NY
+
+skills:
+  languages:
+    - Python
+    - Go
+    - JavaScript
+    - Java
+    - Scala
+    - C++
+    - x86
+    - Lisp/Scheme
+    - Bash
+  tools:
+    - Linux
+    - Git
+    - AWS
+    - FastAPI
+    - Django
+    - React
+    - CSS
+    - PostgreSQL
+    - NoSQL
+    - PySpark
+    - Airflow
+    - OpenGL
+    - LWJGL
+  experience:
+    - distributed systems
+    - web
+    - financial systems
+    - security
+    - crypto
+    - operating systems
+    - graphics
+    - various math
+work:
+  position: Senior Software Engineer
+  company:  Alpaca
 
 links:
   github: almk-dev
   linkedin: almk
   email: me@almk.dev
-
-content:
-  work:
-    company: Octane Lending
-    title: Software Engineer
-    division: Scalability
-    notes:
-      - Designed and built system 01
-      - Designed and built system 02
-      - Designed and built system 03
-
-  skills:
-    - heading: Languages
-      items:
-        - Python
-        - JavaScript
-        - Java
-        - C++
-        - Go
-        - x86
-        - Lisp/Scheme
-        - Bash
-
-    - heading: Tools
-      items: 
-        - Linux
-        - Git
-        - AWS
-        - FastAPI
-        - Django
-        - React,
-        - CSS
-        - PostgreSQL
-        - NoSQL
-        - PySpark
-        - Airflow
-        - OpenGL
-        - LWJGL
-    
-    - heading: Experience
-      items:
-        - distributed systems
-        - web
-        - security/crypto
-        - financial systems
-        - robotics
-        - graphics
-        - various math
 
 # TODO
 # - Add a light/dark toggle
