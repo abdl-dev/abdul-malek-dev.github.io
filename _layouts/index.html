@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-{%- include head.html info=site.info -%}
+{%- include head.html -%}
 <body>
     <script src="/assets/site.js"></script>
-    {%- include header.html info=site.info links=site.links-%}
-    {%- for item in site.content -%}
-        {%- include section.html type=item.name content=item.items -%}
-    {%- endfor -%}
-    {%- include footer.html -%}
 </body>
 
 </html>
