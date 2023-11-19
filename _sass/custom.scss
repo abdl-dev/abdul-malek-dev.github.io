@@ -1,6 +1,11 @@
-$light-primary: #1B1B1B;
-$light-secondary: #FFFFFF;
-$light-highlight: #FF6666;
-$dark-primary: #EAEAEA;
-$dark-secondary: #1B1B1B;
-$dark-highlight: #FF6666;
+$primary: #e6e1cf;
+$secondary: #0f1419;
+$highlight: #36a3d9;
+
+.go {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 100%;
+}
