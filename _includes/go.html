@@ -15,6 +15,7 @@ type almk struct {
 	skills   skills
 	work     work
 	links    links
+	contact  contact
 }
 
 type name struct {
@@ -41,8 +42,11 @@ type work struct {
 type links struct {
 	github   string
 	linkedin string
-	phone	 string
+}
+
+type links struct {
 	email    string
+	phone	 string
 }
 
 func (almk *almk) Render() error {
@@ -120,8 +124,10 @@ func Self() *almk {
 	li := links{
 		github:   "almk-dev",
 		linkedin: "almk",
-		phone:    "6465521769",
+	}
+	co := contact{
 		email:    "me@almk.dev",
+		phone:    "6465521769",
 	}
 
 	return &almk{
@@ -130,6 +136,7 @@ func Self() *almk {
 		skills:   sk,
 		work:     wo,
 		links:    li,
+		contact:  co,
 	}
 }
 {% endhighlight %}
