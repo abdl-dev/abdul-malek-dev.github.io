@@ -34,14 +34,15 @@ type skills struct {
 }
 
 type work struct {
-	position string
 	company  string
+	position string
 }
 
 type links struct {
-	email    string
 	github   string
 	linkedin string
+	phone	 string
+	email    string
 }
 
 func (almk *almk) Render() error {
@@ -59,11 +60,12 @@ func main() {
 	almk := Self()
 	err := almk.Render()
 	if err != nil {
-		logger := log.New(os.Stdout, "[ERROR] ", log.Ldate|log.Ltime)
+		logger := log.New(os.Stderr, log.Ldate|log.Ltime)
 		logger.Println(err)
 	}
 }
-
+{% endhighlight %}
+{% highlight go %}
 func Self() *almk {
 	na := name{
 		first: "Abdul",
@@ -112,13 +114,14 @@ func Self() *almk {
 		},
 	}
 	wo := work{
-		position: "Senior Software Engineer",
 		company:  "Alpaca",
+		position: "Senior Software Engineer",
 	}
 	li := links{
-		email:    "me@almk.dev",
 		github:   "almk-dev",
 		linkedin: "almk",
+		phone:    "6465521769",
+		email:    "me@almk.dev",
 	}
 
 	return &almk{

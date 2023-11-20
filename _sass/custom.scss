@@ -5,7 +5,8 @@ $highlight: #36a3d9;
 .go {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     line-height: 100%;
+    margin: 5% 5%;
 }

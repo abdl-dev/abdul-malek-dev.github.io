@@ -5,6 +5,8 @@
 
 body {
     background-color: #0f1419;
+    max-width: 1000px;
+    margin: auto;
 }
 
 code {
@@ -14,16 +16,9 @@ code {
 }
 
 pre {
-    margin: 0;
+    margin: 0px;
 }
 
 figure {
-    margin: 10px 10px;
-}
-.go {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    line-height: 100%;
+    margin: 0px;
 }
