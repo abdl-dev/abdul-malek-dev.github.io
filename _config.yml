@@ -17,18 +17,18 @@ content:
     - section-title: SKILLS
       text-only: true
       content: |
-          **Languages**  | Python, JavaScript, Java, C++, Go, x86, Lisp/Scheme, Bash
+          **Languages**  | Go, Python, JavaScript, Java, C++, x86, Lisp/Scheme, Bash
           **Tools**      | Linux, Git, AWS, FastAPI, Django, React, CSS, PostgreSQL, NoSQL, PySpark, Airflow, OpenGL, LWJGL
           **Experience** | distributed systems, web, security/crypto, financial systems, robotics, graphics, various math
 
     - section-title: WORK
       text-only: false
       content:
-        - title: Octane Lending
+        - title: Alpaca
           sub-title: Senior Software Engineer
           fill_1: New York, NY
-          fill_2: Nov. 2021 - Present
-          description: Currently leading the design of a new Kafka-based event streaming architecture to help scale the company's servicing infrastructure!
+          fill_2: Oct. 2023 - Present
+          description: Working payments and treasury services
 
 # TODO
 # - cleaning pass
